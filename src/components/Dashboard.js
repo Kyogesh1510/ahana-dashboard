@@ -6,6 +6,12 @@ function Dashboard() {
   return (
     <div className="dashboard">
       <h1>Dashboard</h1>
+
+      <button className="export-button">Export</button>
+
+
+
+        
       <div className="stats">
         <div className="stat-box">No. of job requests received</div>
         <div className="stat-box">No. of candidates uploaded</div>
@@ -16,6 +22,7 @@ function Dashboard() {
         <div className="graph">Graph</div>
         <div className="graph">Graph</div>
       </div>
+
     </div>
   );
 }

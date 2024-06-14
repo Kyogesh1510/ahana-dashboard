@@ -1,5 +1,11 @@
-// src/components/TopBar.js
+
+
+// TopBar.js
 import React from 'react';
+
+import AccountCircleOutlinedIcon from '@mui/icons-material/AccountCircleOutlined';
+
+
 import './TopBar.css';
 
 function TopBar() {
@@ -9,6 +15,9 @@ function TopBar() {
     <div className="topbar">
     
     <div className="user">Admin</div>
+    
+    <AccountCircleOutlinedIcon/>
+
     
   </div>
     

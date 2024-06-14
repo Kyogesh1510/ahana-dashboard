@@ -7,10 +7,14 @@ import Dashboard from './components/Dashboard';
 import JobRequest from './components/JobRequest';
 import Candidates from './components/Candidates';
 import './App.css';
+import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
 
 function App() {
   return (
+    
+
     <Router>
+      
       <div className="app">
         <Sidebar />
         <div className="main-content">
@@ -24,7 +28,13 @@ function App() {
           </div>
         </div>
       </div>
+
+
+      
     </Router>
+
+
+        
   );
 }
 
