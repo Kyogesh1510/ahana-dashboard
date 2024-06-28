@@ -15,6 +15,7 @@ function JobRequest() {
                 </form>
               </div>
       </nav>
+
       <div className="job-list">
       
         <div className="job-item">
@@ -36,6 +37,7 @@ function JobRequest() {
         
         {/* Repeat job-item as needed */}
       </div>
+      
       <div className="recent-requests">
         <h2>Recent job requests</h2>
         <div>Yesterday you have posted a job post for <a href="#">Java developer</a></div>
